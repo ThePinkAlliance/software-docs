@@ -38,4 +38,6 @@ Do keep in mind the current file location of where the code has been downloaded 
 If you want to change the directory that the code is downloaded in here's a guide on using **[change directory](https://stackoverflow.com/a/39593539/11128249)** command.
 :::
 
-## Opening VSCode
+## Opening the Project in VSCode
+
+Were going to open VSCode 
