@@ -3,8 +3,8 @@ sidebar_position: 1
 title: Programming Style
 ---
 
-## Methods
+### Methods
 
-## Public variables
+### Public variables
 
-## Static variables
+### Static variables

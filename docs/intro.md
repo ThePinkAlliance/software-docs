@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Software Intro
 
-Let's setup our programming enviroment for FRC and download .
+Let's setup our programming enviroment for FRC.
 
 ## Getting Started
 
@@ -17,34 +17,25 @@ Let's start with installing required tools.
   - When prompted to install VSCode, select **Download for this computer only**.
 - [Git](https://https://git-scm.com/) standalone installer for 64-bit is perferred.
   - Leave all the options default in the installer.
+  - If your having issues refer to this guide from [Github](https://github.com/git-guides/install-git)
 - Basic understanding of [Java](https://www.w3schools.com/java/java_intro.asp).
 - Basic understanding of [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-benchtop-test-program-cpp-java.html).
+- Basic understanding of [Git Bash](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-benchtop-test-program-cpp-java.html).
 
-## Generate a new site
+## Downloading the robot code
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+This command will create a folder and download all the 2022 robot code.
 
 ```bash
-cd my-website
-npm run start
+git clone https://github.com/ThePinkAlliance/RapidReact
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+You can type this command into Git Bash to execute it.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+:::tip note
+Do keep in mind the current file location of where the code has been downloaded so you can access it later.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you want to change the directory that the code is downloaded in here's a guide on using **[change directory](https://stackoverflow.com/a/39593539/11128249)** command.
+:::
+
+## Opening VSCode

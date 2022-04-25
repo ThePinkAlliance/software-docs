@@ -1,22 +1,21 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
-const theme = {};
+const lightCodeTheme = require("prism-react-renderer/themes/palenight");
+const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: "The Pink Alliance",
 	tagline: "Flamingos are cool.",
-	url: "https://your-docusaurus-test-site.com",
+	url: "https://thePinkAlliance.github.io",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/logo.ico",
 	organizationName: "thePinkAlliance", // Usually your GitHub org/user name.
-	projectName: "tooling-docs", // Usually your repo name.
+	projectName: "software-docs", // Usually your repo name.
+	trailingSlash: false,
 
 	presets: [
 		[
@@ -27,13 +26,13 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/thePinkAlliance/software-docs/tree/main/",
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/thePinkAlliance/software-docs/tree/main/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -45,6 +44,10 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				defaultMode: "dark",
+				respectPrefersColorScheme: true,
+			},
 			navbar: {
 				title: "The Pink Alliance",
 				logo: {
@@ -105,6 +108,7 @@ const config = {
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
+				defaultLanguage: "java",
 			},
 		}),
 };
