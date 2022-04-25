@@ -9,7 +9,7 @@ const config = {
 	title: "The Pink Alliance",
 	tagline: "Flamingos are cool.",
 	url: "https://thepinkalliance.github.io/software-docs/",
-	baseUrl: "/",
+	baseUrl: "/software-docs/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/logo.ico",
