@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 const config = {
 	title: "The Pink Alliance",
 	tagline: "Flamingos are cool.",
-	url: "https://thePinkAlliance.github.io",
+	url: "https://thepinkalliance.github.io/software-docs/",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
