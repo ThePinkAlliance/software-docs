@@ -84,10 +84,6 @@ const config = {
 						title: "Community",
 						items: [
 							{
-								label: "Discord",
-								href: "https://discord.gg/yan4h97sUq",
-							},
-							{
 								label: "Twitter",
 								href: "https://twitter.com/pinkalliance233",
 							},

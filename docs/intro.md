@@ -56,4 +56,4 @@ The folder we want to open is the one you made note of earlier.
 
 ![open folder](/img/screenshots/screenshot-open-folder.png)
 
-Now your in the project and can start programming, this is the end of the intro however and extention may be added in the future.
+Now your in the project and can start programming 🎉.
