@@ -27,6 +27,8 @@ const config = {
 					// Please change this to your repo.
 					editUrl:
 						"https://github.com/thePinkAlliance/software-docs/tree/main/",
+
+					breadcrumbs: true,
 				},
 				blog: {
 					showReadingTime: true,
@@ -54,6 +56,7 @@ const config = {
 					alt: "Pink Alliance Logo",
 					src: "img/logo.jpeg",
 				},
+				style: "dark",
 				items: [
 					{
 						type: "doc",
