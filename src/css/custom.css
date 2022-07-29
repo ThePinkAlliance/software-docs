@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ff648c;
+  --ifm-color-primary: #E90A89;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -18,17 +18,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #ff6597;
+  --ifm-color-primary: #F051AB/*#ff6597*/;
   --ifm-color-primary-dark: #7f314a;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-}
-
-.navbar {
-  font-family:  ;
 }
 
 .docusaurus-highlight-code-line {
@@ -39,9 +35,9 @@
 }
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #21201E/*rgba(0, 0, 0, 0.3)*/;
 }
 
 ::selection {
-  background: #7f314a;
+  background: #EF59B0/*#7f314a*/;
 }

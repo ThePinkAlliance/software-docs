@@ -17,12 +17,15 @@ const config = {
 	projectName: "software-docs", // Usually your repo name.
 	trailingSlash: false,
 
+	plugins: [require("docusaurus-lunr-search")],
+
 	presets: [
 		[
 			"classic",
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
+					remarkPlugins: [require("mdx-mermaid")],
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					editUrl:
@@ -31,6 +34,7 @@ const config = {
 					breadcrumbs: true,
 				},
 				blog: {
+					remarkPlugins: [require("mdx-mermaid")],
 					showReadingTime: true,
 					// Please change this to your repo.
 					editUrl:
@@ -54,7 +58,7 @@ const config = {
 				title: "The Pink Alliance",
 				logo: {
 					alt: "Pink Alliance Logo",
-					src: "img/logo.jpeg",
+					src: "img/PinkMeatball.png",
 				},
 				style: "dark",
 				items: [
@@ -102,12 +106,12 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} The Pink Team, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} The Pink Team. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
-				defaultLanguage: "java",
+				defaultLanguage: "typescript",
 			},
 		}),
 };
