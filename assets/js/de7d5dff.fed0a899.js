@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktooling_docs=self.webpackChunktooling_docs||[]).push([[218],{50697:function(o){o.exports=JSON.parse('{"permalink":"/software-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
